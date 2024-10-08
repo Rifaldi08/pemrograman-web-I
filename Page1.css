@@ -7,7 +7,6 @@ body {
     height: 100vh;
     margin: 0;
 }
-
 .form-container {
     background-color: black;
     padding: 20px;
@@ -17,29 +16,23 @@ body {
     height: 94vh; 
     width: 100%;
 }
-
 h3 {
     text-align: center;
     color: white;
 }
-
 table {
     width: 100%;
     border: 3px solid goldenrod;
     border-collapse: collapse;
 }
-
 td {
     padding: 5px;
     vertical-align: top;
 }
-
 label {
     font-weight: bold;
     color: white;
 }
-
-
 input[type="text"], input[type="password"], input[type="file"], textarea {
     width: 95%;
     padding: 10px;
@@ -50,16 +43,13 @@ input[type="text"], input[type="password"], input[type="file"], textarea {
     margin-top: 5px;
     background-color: black;
 }
-
 input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
     border-color: goldenrod;
     outline: none;
 }
-
 textarea {
     resize: none;
 }
-
 input[type="submit"] {
     width: 100%;
     padding: 10px;
@@ -71,7 +61,6 @@ input[type="submit"] {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 input[type="submit"]:hover {
     background-color: goldenrod;
 }
@@ -80,26 +69,22 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: column;
 }
-
 .form-container form table {
     margin-top: 20px;
 }
-
 @media (max-width: 600px) {
     .form-container {
         padding: 15px;
     }
-
     td {
         display: block;
         width: 100%;
     }
-
     td:first-child {
         margin-bottom: 10px;
     }
-
     table {
         display: block;
     }
-}
+
+
